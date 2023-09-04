@@ -35,7 +35,7 @@ int main(int argc, const char * argv[]) {
     printf("Sorgulanacak sayiyi giriniz:\n");
     scanf("%d", &val);
 
-    if (isArmstrong(val)) {
+    if (val == 0 || isArmstrong(val)) {
         printf("%d sayisi Armstrong sayisidir\n", val);
     } else {
         printf("%d sayisi Armstrong sayisi degildir\n", val);
